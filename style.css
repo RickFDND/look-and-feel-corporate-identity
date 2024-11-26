@@ -1,7 +1,7 @@
 body{
     display: grid;
     grid-template-rows: 2fr 5fr 4fr 1fr;
-    height: 98vh;
+    max-height: 98vh;
     background-color: black;
     background-size: 400px;
 }
@@ -56,14 +56,15 @@ a{
 .slideshow {
     z-index: 1;
     grid-row: 2;
-    margin-left: -2em;
+    margin-left: 5em;
     position: relative;
     width: 80%;
-    max-width: 800px;
+    max-width: 200px;
     overflow: hidden;
   }
   
   .slidesfade {
+    opacity: 0;
     display: block;
     position: absolute;
     width: 100%;
