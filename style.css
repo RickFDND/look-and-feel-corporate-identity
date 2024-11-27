@@ -42,7 +42,7 @@ header{
     grid-row: 1;
 }
 
-header .laadbalk{
+header .laadbalk, .laadbalk2{
   grid-row: 2;
   width: 90%;
   height: 3px;
@@ -92,7 +92,7 @@ a{
     grid-row: 2;
     margin-left: 5em;
     position: relative;
-    width: 200px;
+    width: 40%;
   }
   
   .slidesfade {
@@ -134,6 +134,9 @@ a{
     100% { opacity: 0; } /* Blijft onzichtbaar */
   }
 
+  .body2{
+    
+  }
 
 
 
