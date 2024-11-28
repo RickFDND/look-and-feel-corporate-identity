@@ -151,6 +151,19 @@ a{
     nav{
       grid-row: 3;
     }
+
+    header{
+      display: grid;
+      grid-column: span 3;
+      grid-template-columns: 100%;
+      grid-template-rows: 3fr 1fr ;
+    }  
+    header .laadbalk2{
+      width: 90%;
+    height: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    }
   }
 
   @media (min-width: 768px) {
@@ -246,4 +259,3 @@ grid-template-rows: 2fr 6fr 1fr;
     }
   }
 
-  
