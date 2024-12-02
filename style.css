@@ -3,11 +3,8 @@ body{
     grid-template-rows: 1fr 5fr 4fr 1fr;
     max-height: 98vh;
     background-color: black;
-    background-size: 400px;
     font-family: 'Calvino Grande Trial', sans-serif;
 }
-
-
 
 @media (min-width: 768px) {
   body{
