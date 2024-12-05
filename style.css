@@ -110,7 +110,6 @@ a{
     height: auto;
   }
   
-  /* Slechts één slide tegelijk tonen */
   .slidesfade:nth-child(1) {
     animation-fill-mode: backwards;
     opacity: 1;
